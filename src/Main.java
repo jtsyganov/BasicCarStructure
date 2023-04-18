@@ -11,9 +11,17 @@ public class Main {
         x.size="2000";
         x.weight="3000";
 
+
         color col=new color();
         col.colorLights="neon";
         col.colorTyres="black";
                 col.colorWindows="True";
+
+        lights neon=new lights();
+        neon.color="white";
+        neon.size="2";
+        neon.intensity="344";
+
+
     }
 }
